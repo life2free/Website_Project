@@ -1,0 +1,379 @@
+@media all and (min-width: 1025px){
+    /* body{background-color: red;} */
+}
+
+@media all and (max-width: 1024px){
+    /* body{background-color: blue;} */
+    .font-13{
+        font-size: 0.65em;
+    }
+    
+    .font-14{
+        font-size: 0.7em;
+    }
+    
+    .font-15{
+        font-size: 0.75em;
+    }
+    
+    .font-16{
+        font-size: 0.8em;
+    }
+    
+    .font-18{
+        font-size: 0.9em;
+    }
+    
+    .font-20{
+        font-size: 1.125em;
+    }
+    
+    .font-38{
+        font-size: 1.5em;
+    }
+    
+    .font-48{
+        font-size: 1.75em;
+    }
+    
+    .font-60{
+        font-size: 2em;
+    }
+    
+    .font-72{
+        font-size: 2.25em;
+    }
+
+    .main-navBar-img,.main-navBar-viewother{
+        width: 100px;
+        height: 100px;
+    }
+
+    .main-topRatedAuthor-instructor5{
+        /* width: 0; */
+        display: none;
+    }
+}
+
+@media all and (max-width: 960px){
+    /* body{background-color: blue;} */
+    .font-13{
+        font-size: 0.5em;
+    }
+    
+    .font-14{
+        font-size: 0.55em;
+    }
+    
+    .font-15{
+        font-size: 0.6em;
+    }
+    
+    .font-16{
+        font-size: 0.65em;
+    }
+    
+    .font-18{
+        font-size: 0.75em;
+    }
+    
+    .font-20{
+        font-size: 0.85em;
+    }
+    
+    .font-38{
+        font-size: 1em;
+    }
+    
+    .font-48{
+        font-size: 1.25em;
+    }
+    
+    .font-60{
+        font-size: 1.45em;
+    }
+    
+    .font-72{
+        font-size: 1.6em;
+    }
+
+    .main-recommented-list-detail1,.main-recommented-list-detail2{
+        width: 80%;
+    }
+
+    .main-recommented-list-detail3{
+        /* width: 0; */
+        display: none;
+    }
+
+    .main-navBar-img,.main-navBar-viewother{
+        width: 80px;
+        height: 80px;
+    }
+
+    .main-topRatedAuthor-instructor4{
+        /* width: 0; */
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px){
+    /* body{background-color: yello;} */
+    .font-13{
+        font-size: 0.425em;
+    }
+    
+    .font-14{
+        font-size: 0.45em;
+    }
+    
+    .font-15{
+        font-size: 0.485em;
+    }
+    
+    .font-16{
+        font-size: 0.5em;
+    }
+    
+    .font-18{
+        font-size: 0.6em;
+    }
+    
+    .font-20{
+        font-size: 0.75em;
+    }
+    
+    .font-38{
+        font-size: 0.85em;
+    }
+    
+    .font-48{
+        font-size: 1em;
+    }
+    
+    .font-60{
+        font-size: 1.25em;
+    }
+    
+    .font-72{
+        font-size: 1.5em;
+    }
+
+    .main-navBar-img,.main-navBar-viewother{
+        width: 70px;
+        height: 70px;
+    }
+
+    .main-chooseus-img{
+        /* grid-column: 1; */
+        display: none;
+    }
+
+    .main-chooseus{
+        margin: 6% 20%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .main-topRatedAuthor-instructor3{
+        /* width: 0; */
+        display: none;
+    }
+
+    .main-topRatedAuthor-instructor1{
+        width:40%;
+    }
+
+    .main-topRatedAuthor-instructor2{
+        width:40%;
+    }
+
+    .footer-navbar-community-list,.footer-navbar-support-list,.footer-navbar-joinus-list,.footer-navbar-downloadapp-list{
+        display: none;
+    }
+}
+
+@media all and (max-width: 640px){
+    .header-navbar{
+        margin: 0.5% 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+
+    .header-navbar-logoimg{
+        grid-row: 1;
+        grid-column: 1;
+        width:100%;
+    }
+    
+    .header-navbar-home{
+        grid-row: 2;
+        grid-column: 1;
+        margin: 0;
+    }
+    
+    .header-navbar-course{
+        grid-row: 2;
+        grid-column: 2;
+        margin: 0;
+    }
+    
+    .header-navbar-author{
+        grid-row: 3;
+        grid-column: 1;
+        margin: 0;
+    }
+    
+    .header-navbar-feedback{
+        grid-row: 3;
+        grid-column: 2;
+        margin: 0;
+    }
+    
+    .header-navbar-global{
+        grid-row: 4;
+        grid-column: 1;
+        margin: 0;
+    }
+    
+    .header-navbar-signinbtn{
+        grid-row: 1;
+        grid-column: 2;
+        margin: 0;
+    }
+
+    .main-recommented-list-detail1{
+        width: 70%;
+    }
+
+    .main-recommented-list-detail-img{
+        height: auto;
+    }
+
+    .main-recommented-list-detail2{
+        /* width: 0; */
+        display: none;
+    }
+
+    .main-feedback-list-detail2{
+        /* width: 0; */
+        display: none;
+    }
+    .main-feedback-list-detail1{
+        width: 80%;
+    }
+
+    .footer-navbar{
+        margin: 0 15% 2% 15%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .footer-navbar-joinus{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .footer-navbar-downloadapp{
+        grid-row: 2;
+        grid-column: 3;
+    }
+}
+
+@media all and (max-width: 480px){
+    .main-navBar{
+        /* grid-row: 2; */
+        margin: 2% 25%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .main-navBar-business{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .main-navBar-design{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .main-navBar-development{
+        grid-row: 1;
+        grid-column: 3;
+    }
+    .main-navBar-language{
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .main-navBar-game{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .main-navBar-others{
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+    .main-recommented{
+        /* grid-row: 3; */
+    
+        margin:15% 20% 8% 20%;
+    }
+
+
+    .main-navBar-img,.main-navBar-viewother{
+        width: 60px;
+        height: 60px;
+    }
+
+    .main-recommented-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-topRatedAuthor-instructor1{
+        width:50%;
+    }
+
+    .main-topRatedAuthor-instructor2{
+        /* width: 0; */
+        display: none;
+    }
+    
+    .main-feedback-viewmorebtn{
+        float: none;
+    }
+
+    .footer-navbar{
+        margin: 0 15% 2% 15%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .footer-navbar-community{
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .footer-navbar-support{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .footer-navbar-joinus{
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    .footer-navbar-downloadapp{
+        grid-row: 4;
+        grid-column: 2;
+    }
+}
